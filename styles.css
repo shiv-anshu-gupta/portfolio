@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+.sidebar{
+	background-color: rgb(168,165,165);
+	/*width: 15vw;*/
+	font-family: 'Fira Sans', sans-serif;
+	height: 100vh;
+	transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+	padding: 45px;
+}
+.sidebar nav li{
+	list-style: none;
+	font-size: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+}
+.sidebar nav ul li a{
+	text-decoration: none;
+	color: black; 
+	font-weight:bold;
+	font-size: 20px;
+}
+.main{
+	/*background-color: yellow;*/
+	width: 90vw;
+	height: 100vh;
+	
+}
+.container{
+	display: flex;
+}
+.infoContainer{
+	/*background-color: lightpink;*/
+	height: 45vh;
+	width: 80vw;
+	margin: 140px auto;
+	height: 60vh;
+	display: flex;
+	justify-content: space-around;
+}
+.devPic img{
+	width: 200px;
+	height: 60vh;
+}
+.devInfo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.hello{
+	font-size: 60px;
+}
+.name{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Fira Sans',sans-serif;
+}
+.about{
+	font-size: 25px;
+}
+.moreabout{
+	font-size: 20px;
+	font-family: 'Fira Sans',sans-serif; 
+	margin-top: 10px;
+}
+.buttons{
+	margin-top: 20px;
+	
+}
+.buttons button{
+	background-color: rgb(168,165,165);
+	padding: 10px;
+	border-radius: 15px;
+	margin-right:10px;
+	font-weight: bold;
+	font-size: 10px; 
+	cursor: pointer;
+}
+.buttons button:hover{
+	background-color: white;
+	color: blue;
+}
+.buttons button a{
+	text-decoration: none;
+	color: black;
+
+}
+.contact-form{
+	font-family: 'Fira Sans',sans-serif;
+	padding-top: 200px;
+	padding-left: 34px;
+}
+.contact-form h1{
+	font-family: 'Source Code Pro',monospace;
+	/*text-align: center;*/
+	padding-bottom: 20px;
+}
+.contact-form  form div{
+	padding-top: 10px;
+}
+.contact-form  form div small{
+	color: red;
+}
+
+.contact-form  form button{
+	margin-top: 10px;
+	border-radius: 15px;
+	font-size: 20px;
+	background-color: grey;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.contact-form  form button:hover{
+	background-color: white;
+	color: black;
+	border-color: blue;
+}
+
+.blogitem{
+	margin: 20px;
+	font-family: 'Fira Sans',sans-serif;
+}
+.blogitem h2{
+
+}
+.blogitem p{
+	font-family: 'Source Code Pro',monospace;
+}
+.blogcontainer button{
+	margin-top: 10px;
+	border-radius: 15px;
+	font-size: 10px;
+	background-color: grey;
+	color: white;
+	padding-right: 5px;
+	padding-left: 5px;
+	cursor: pointer;
+}
+.blogcontainer button:hover{
+	background-color: white;
+	color: black;
+	border-color: blue;
+}
+.introContainer {
+	margin: 12px auto;
+	margin-left: 12px;
+	/*height: 60vh;*/
+	word-wrap: break-word;
+}
+.introContainer p{
+	
+}
+.skillscontainer{
+	padding: 12px;
+
+}
+.skillsitem{
+	display: flex;
+	margin-top: 5px;
+	align-items: center;
+	font-family: 'Source Code Pro',monospace;
+	font-weight: 900;
+}
+.skills{
+	width: 200px;
+	height: 5px;
+	background-color: yellow;
+	border:2px solid black;
+}
+.hundered{
+	width: 200px;
+	background-color: blue;
+}
+.fifty{
+	width: 100px;
+	background-color: blue;
+}
+.tf{
+	width: 50px;
+	background-color: blue;
+}
+.sf{
+	width: 150px;
+	background-color: blue;
+}
+
+.icons{
+	position: absolute;
+	cursor: pointer;
+	
+	left: 5px;
+}
+.ham{
+	margin-top: 10px;
+}
+.cross{
+	margin-left: 130px;
+	margin-top: 10px;
+}
+.sidebargo{
+	transform: translate(-443px,0px);
+	position: absolute;
+}
